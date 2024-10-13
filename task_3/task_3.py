@@ -112,7 +112,7 @@ else:
 
         for i in range(main_string_length - substring_length + 1):
             if substring_hash == current_slice_hash:
-                if main_string[i : i + substring_length] == substring:
+                if main_string[i: i + substring_length] == substring:
                     return i
             if i < main_string_length - substring_length:
                 current_slice_hash = (
